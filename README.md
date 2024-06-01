@@ -17,5 +17,6 @@ Data: https://www.kaggle.com/datasets/adityajn105/flickr8k
 13. compile a neural network model for image captioning, which combines features extracted from images using a Convolutional Neural Network (CNN) with sequences of words processed by an LSTM network. The model aims to predict the next word in a sequence given an image and a partial sequence of words (caption)
 14. processes the image features through a dense network and the text sequences through an embedding layer and LSTM. The outputs of these two paths are merged, further processed through dense layers, and finally, a softmax layer predicts the next word in the sequence.
 15. The model is compiled with categorical cross-entropy loss and the Adam optimizer.
-
+16. Train the model on train data.
+17. Now, to predict the caption for new image perform the same preprocessing techniques and feature extraction for the image and give it to the trained model along with tokenizer and max_length.
 
